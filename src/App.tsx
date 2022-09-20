@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import Card from './components/Card';
 
 function App() {
   return (
-    <div className="App">
-      App
+    <div className="bg-slate-900 w-screen h-screen">
+      <Card />
     </div>
   );
 }
